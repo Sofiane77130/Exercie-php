@@ -1,6 +1,6 @@
 <?php
 $Championdeligue1= $_POST['Ligue1'];
-
+// Variable final
 switch ($Championdeligue1) {
     case"PSG":
         echo "Les Champions de ligue 1";
@@ -13,7 +13,7 @@ switch ($Championdeligue1) {
     break;
 }
 ?>
-
+<!-- differentes variables en fonction du choix de l'utilisateur -->
 <form action="index.php" method="POST">
 <select name="Ligue1">
 <option value= "PSG">PSG</option>
